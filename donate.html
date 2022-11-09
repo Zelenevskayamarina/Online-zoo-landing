@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <title>online-zoo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.min.css"> 
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__info"> 
+              <h1 class="header__info-title"><a class="header__info-link" href="/">PetStory <br/> online</a></h1>
+              <img class="header__info-pic" src="./images/dist/header/bamboo.svg" alt="logo">          
+        </div>
+        <div class="header__overlay"></div>
+          <nav class="header__nav">
+            <div class="header__info header__info_burger"> 
+              <h1 class="header__info-title header__info-title_burger"><a class="header__info-link header__info-link_burger" href="/">PetStory <br/> online</a></h1>
+              <img class="header__info-pic header__info-pic_burger" src="./images/dist/header/bamboo-burger.svg" alt="logo">
+            </div>
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="index" href="/">About</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="map" href="/">Map</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="zoos" href="/">Zoos</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="donate" href="../donate.html">Donate</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="contact" href="/">Contact us</a>                
+              </li>
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="designed" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>                
+              </li>               
+            </ul>
+          </nav>  
+      <!-- <div class="header__copyright">
+        <a class="header__copyright-link" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>
+      </div> -->
+      <button class="header__burger burger">
+        <span class="burger__line burger__line_first"></span>
+        <span class="burger__line burger__line_second"></span>
+        <span class="burger__line burger__line_third"></span>
+    </button>
+    </div>
+  </div>
+</header> 
+
+<main class="main" data-id-page-header="donate" data-id-page-footer="donate">
+    <section class="friend-donate">
+        <div class="friend-donate__pic">
+            <img class="friend-donate__pic-img" src="./images/dist/friend-donate/giant-panda-bg.jpg" alt="giant-panda">
+            <img class="friend-donate__pic-img-lg" src="./images/dist/friend-donate/giant-panda-bg-lg.jpg" alt="giant-panda">
+            <img class="friend-donate__pic-img-md" src="./images/dist/friend-donate/giant-panda-bg-md.jpg" alt="giant-panda">
+            <img class="friend-donate__pic-img-sm" src="./images/dist/friend-donate/giant-panda-bg-sm.jpg" alt="giant-panda">
+        </div>
+        <div class="container"> 
+            <div class="friend-donate__wrapper">
+                <h3 class="friend-donate__subtitle">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+                <p class="friend-donate__text">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or 
+                    postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what 
+                    size – to help us sustain our mission.</p>
+                <h3 class="friend-donate__desc">Donation Information</h3>
+                <div class="friend-donate__info">
+                    <h2 class="friend-donate__info-title">Pick and feed a friend</h2>
+                    <p class="friend-donate__info-desc">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                    <div class="friend-donate__widget">
+                        <div class="friend-donate__widget-info">
+                            <p class="friend-donate__widget-info-count">4</p>
+                            <p class="friend-donate__widget-info-text">Panda diet for the day.</p>
+                        </div>
+                        <div class="friend-donate__widget-pic">
+                            <img class="friend-donate__widget-pic-img" src="./images/dist/friend-donate/x-icon.svg" alt="x-icon">
+                        </div>
+                        <div class="friend-donate__widget-promo">
+                            <img class="friend-donate__widget-promo-img" src="./images/dist/friend-donate/panda-widget.png" alt="panda"> 
+                            <img class="friend-donate__widget-promo-img-sm" src="./images/dist/friend-donate/panda-widget-sm.png" alt="panda">                           
+                        </div>
+                    </div>
+                    <div class="friend-donate__amount">
+                        <div class="friend-donate__amount-text">Amount</div>
+                        <div class="friend-donate__amount-scale-wrapper">
+                                <div class="friend-donate__amount-ball friend-donate__amount-circle-block"  data-value="5000">
+                                    <img class="friend-donate__amount-circle" src="./images/dist/friend-donate/circle.png" alt="circle">
+                                    <div class="friend-donate__price">$5000</div>
+                                </div>
+                            <div class="friend-donate__amount-line friend-donate__amount-line_change-lg"></div>
+                                <div class="friend-donate__amount-ball friend-donate__amount-circle-block"  data-value="2000">
+                                <img class="friend-donate__amount-circle" src="./images/dist/friend-donate/circle.png" alt="circle">
+                                <div class="friend-donate__price">$2000</div>   
+                            </div>
+                            <div class="friend-donate__amount-line friend-donate__amount-line_change-md"></div>
+                            <div class="friend-donate__amount-ball"  data-value="1000">
+                                <img class="friend-donate__amount-circle friend-donate__amount-circle_active" src="./images/dist/friend-donate/circle.png" alt="circle">
+                                <div class="friend-donate__price friend-donate__price_active">$1000</div>                                
+                            </div>
+                            <div class="friend-donate__amount-line friend-donate__amount-line_change-md"></div>
+                            <div class="friend-donate__amount-ball friend-donate__amount-circle-block" data-value="500">
+                                <img class="friend-donate__amount-circle" src="./images/dist/friend-donate/circle.png" alt="circle">
+                                <div class="friend-donate__price">$500</div>
+                            </div>
+                            <div class="friend-donate__amount-line"></div>
+                            <div class="friend-donate__amount-ball friend-donate__amount-circle-block"  data-value="250">
+                                <img class="friend-donate__amount-circle" src="./images/dist/friend-donate/circle.png" alt="circle">
+                                <div class="friend-donate__price">$250</div>                            
+                            </div>
+                            <div class="friend-donate__amount-line"></div>
+                            <div class="friend-donate__amount-ball friend-donate__amount-circle-active"  data-value="100">
+                              <img class="friend-donate__amount-circle friend-donate__amount-circle_active" src="./images/dist/friend-donate/circle.png" alt="circle">
+                              <div class="friend-donate__price friend-donate__price_active">$100</div>                                
+                          </div>
+                            <div class="friend-donate__amount-line"></div>
+                            <div class="friend-donate__amount-ball friend-donate__amount-circle-block"  data-value="50">
+                                <img class="friend-donate__amount-circle" src="./images/dist/friend-donate/circle.png" alt="circle">
+                                <div class="friend-donate__price">$50</div>                                
+                            </div>
+                            <div class="friend-donate__amount-line"></div>
+                            <div class="friend-donate__amount-ball friend-donate__amount-circle-block" data-value="25">
+                                <img class="friend-donate__amount-circle" src="./images/dist/friend-donate/circle.png" alt="circle">
+                                <div class="friend-donate__price">$25</div>                                
+                            </div>
+                        </div>        
+                    </div>                    
+                    <div class="friend-donate__input friend-donate__input_icon">
+                        <input class="friend-donate__input-input" type="number"min="25" max="5000" placeholder="Another amount">
+                    </div>
+                    <div class="friend-donate__box">
+                        <input class="friend-donate__box-input" id="inputFirst" name="radio" type="radio" />
+                        <label for="inputFirst">Monthly</label>
+                        <input  class="friend-donate__box-input" id="inputSecond" name="radio" type="radio" value="" checked />
+                        <label for="inputSecond">Once</label>                        
+                    </div>
+                    <button class="friend-donate__info-btn">Feed a friend now</button>
+                    <p class="friend-donate__info-text">Share with your friends on social networks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="./js/app.js"></script>
+<script src="./js/donate.js"></script>
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer__row row">
+			<div class="footer__item col-4">
+				<div class="footer__logo">
+					<p class="footer__logo-title"><a class="footer__logo-link" href="/">PetStory <br/> online</a></p>					
+					<img class="footer__logo-pic" src="./images/dist/footer/bamboo.svg" alt="logo">
+				</div>
+				<a class="footer__link-btn" href="../donate.html"><button class="footer__btn">donate for volunteers</button></a>  				
+				<div class="footer__socials">
+					<ul>
+						<li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_facebook" href="https://www.facebook.com/">Facebook</a></li>
+						<li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_twitter" href="https://twitter.com/">Twitter</a></li>
+						<li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_instagram" href="https://www.instagram.com/">Instagram</a></li>
+						<li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_youtube" href="https://www.youtube.com/">YouTube</a></li>
+					</ul>					
+				</div>				
+			</div>
+			<div class="footer__item col-4">
+				<nav class="footer__nav">
+					<ul class="footer__list">
+						<li class="footer__point">
+							<a class="footer__link" data-id-nav-footer="index" href="/">About</a>
+						</li>
+						<li class="footer__point">
+							<a class="footer__link" data-id-nav-footer="map" href="/">Map</a>
+						</li>
+						<li class="footer__point">
+							<a class="footer__link" data-id-nav-footer="zoos" href="/">Zoos</a>
+						</li>
+						<li class="footer__point">
+							<a class="footer__link" data-id-nav-footer="contact" href="/">Contact us</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer__item col-4">
+				<form class="footer__form" action="/" method="post">
+					<p class="footer__form-title">Subscribe to our news</p>
+					<div class="footer__form-wrapper">
+						<div class="footer__form-input">
+							<input class="footer__form-input-text" type="email" required="true" name="Email" placeholder="Enter your email"/>
+						</div>
+						<button class="footer__form-btn" type="mistake">Submit</button>
+					</div>					
+				</form>	
+				<div class="footer__copyright">
+					<p class="footer__copyright-info">Designed by Alisa Samborskaya</p>
+					<p class="footer__copyright-info">©RSSchool & ©Yem Digital 2021</p>								
+				</div>			
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- <script src="./js/app.js"></script> -->
+</body>
+</html>

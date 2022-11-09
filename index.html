@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <title>online-zoo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="./css/app.min.css"> 
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__info"> 
+              <h1 class="header__info-title"><a class="header__info-link" href="/">PetStory <br/> online</a></h1>
+              <img class="header__info-pic" src="./images/dist/header/bamboo.svg" alt="logo">          
+        </div>
+        <div class="header__overlay"></div>
+          <nav class="header__nav">
+            <div class="header__info header__info_burger"> 
+              <h1 class="header__info-title header__info-title_burger"><a class="header__info-link header__info-link_burger" href="/">PetStory <br/> online</a></h1>
+              <img class="header__info-pic header__info-pic_burger" src="./images/dist/header/bamboo-burger.svg" alt="logo">
+            </div>
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="index" href="/">About</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="map" href="/">Map</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="zoos" href="/">Zoos</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="donate" href="../donate.html">Donate</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="contact" href="/">Contact us</a>                
+              </li>
+              <li class="header__item">
+                <a class="header__link" data-id-nav-header="designed" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>                
+              </li>               
+            </ul>
+          </nav>  
+      <!-- <div class="header__copyright">
+        <a class="header__copyright-link" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>
+      </div> -->
+      <button class="header__burger burger">
+        <span class="burger__line burger__line_first"></span>
+        <span class="burger__line burger__line_second"></span>
+        <span class="burger__line burger__line_third"></span>
+    </button>
+    </div>
+  </div>
+</header> 
+
+<main class="main" data-id-page-header="index" data-id-page-footer="index">
+  <section class="watch">    
+    <div class="container">      
+      <div class="watch__row row">
+        <div class="watch__item col-6"></div>        
+        <div class="watch__item col-6">
+          <img class="watch__pic" src="./images/dist/watch/ellipse.png" alt="ellipse">
+          <img class="watch__pic-md" src="./images/dist/watch/ellipse-md.png" alt="ellipse">
+          <img class="watch__pic-sm" src="./images/dist/watch/ellipse-sm.png" alt="ellipse">
+          <h2 class="watch__title">Watch your <span class="watch__title_active"> favorite</span> animal online</h2>
+          <a class="watch__link" href="../donate.html"><button class="watch__btn">watch online</button></a>          
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="backstage">
+    <div class="container">
+      <div class="backstage__row row">
+        <div class="backstage__item col-6 col-md-1">
+          <img class="backstage__pic" src="./images/dist/backstage/bamboo-cap.jpg" alt="bamboo-cap">
+          <img class="backstage__pic backstage__pic-lg" src="./images/dist/backstage/bamboo-cap-lg.jpg" alt="bamboo-cap">
+        </div>
+        <div class="backstage__item col-6 col-md-11">
+          <h2 class="backstage__info-title">The Backstage of the Wilderness World.</h2>
+          <p class="backstage__info-text">The site was founded on the basis of a volunteer movement to protect and care for animals.</p>
+          <h3 class="backstage__info-subtitle">How it works</h3>
+          <p class="backstage__info-text">The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</p>
+        </div>
+      </div>
+    </div>
+    <div class="backstage__img">
+      <img class="backstage__img-right" src="./images/dist/backstage/flower-foto.png" alt="flower">
+      <img class="backstage__img-right backstage__img-right-md" src="./images/dist/backstage/flower-foto-md.png" alt="flower">
+      <img class="backstage__img-right backstage__img-right-sm" src="./images/dist/backstage/flower-foto-sm.png" alt="flower">
+    </div>
+  </section>
+  <section class="pets">   
+    <div class="container">
+      <div class="pets__wrapper">
+        <div class="pets__slider">
+          <div class="pets__slide">
+            <div class="pets__row">          
+            </div>
+          </div>
+          <button class="pets__slider-btn pets__slider-btn_prev">            
+            <svg class="pets__arrow-prev-icon" width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.00179 9.10745L5.10646 9.2094L5.21112 9.10745L5.35128 8.97092L5.46159 8.86347L5.35128 8.75602L1.74841 5.24656L17 5.24656H17.15V5.09656V4.90344V4.75344H17L1.74878 4.75344L5.35129 1.24398L5.46158 1.13653L5.35128 1.02909L5.21112 0.892552L5.10646 0.790595L5.00179 0.892553L0.895334 4.89275L0.785027 5.0002L0.895338 5.10764L5.00179 9.10745Z" fill="white" stroke="white" stroke-width="0.3"/>
+            </svg>
+          </button>
+          <button class="pets__slider-btn pets__slider-btn_next">            
+            <svg class="pets__arrow-next-icon" width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.9982 0.892548L12.8935 0.7906L12.7889 0.892552L12.6487 1.02908L12.5384 1.13653L12.6487 1.24398L16.2516 4.75344H1H0.85V4.90344V5.09656V5.24656H1H16.2512L12.6487 8.75602L12.5384 8.86347L12.6487 8.97091L12.7889 9.10745L12.8935 9.2094L12.9982 9.10745L17.1047 5.10725L17.215 4.9998L17.1047 4.89236L12.9982 0.892548Z" fill="white" stroke="white" stroke-width="0.3"/>
+            </svg>
+          </button>
+        </div>
+        <a class="pets__link" href="../donate.html"><button class="pets__btn">choose your favorite</button></a>        
+      </div>      
+    </div>
+    <div class="pets__img">
+      <img class="pets__img-left" src="./images/dist/pets/palm.png" alt="palm">
+      <img class="pets__img-left-lg" src="./images/dist/pets/palm-lg.png" alt="palm">
+      <img class="pets__img-left-md" src="./images/dist/pets/palm-md.png" alt="palm">
+      <img class="pets__img-left-sm" src="./images/dist/pets/palm-sm.png" alt="palm">
+    </div>   
+    <div class="pets__img">
+      <img class="pets__img-right" src="./images/dist/pets/strelitzia.png" alt="strelitzia">
+      <img class="pets__img-right-lg" src="./images/dist/pets/strelitzia-lg.png" alt="strelitzia">
+      <img class="pets__img-right-md" src="./images/dist/pets/strelitzia-md.png" alt="strelitzia">
+      <img class="pets__img-right-sm" src="./images/dist/pets/strelitzia-sm.png" alt="strelitzia">
+    </div>
+  </section>
+
+  <section class="friend">
+    <div class="container friend__container">
+      <div class="friend__wrapper">
+        <div class="friend__info">
+          <h2 class="friend__info-title">Pick and feed a friend</h2>
+          <p class="friend__info-text">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+          <p class="friend__info-note">During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and glad that people around the world find joy in PetStory.</p>
+          <p class="friend__info-note friend__info-note_second">Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider a gift to our <a class="friend__info-link" href="../donate.html">Emergency Support Fund</a> .</p>
+          <h3 class="friend__info-subtitle">How it works</h3>
+        </div>
+        <div class="friend__row row">
+          <div class="friend__item col-4 col-xl-3 col-lg-3 col-ml-4 col-md-4 col-sd-12 col-sm-12">
+            <div class="friend__pic">
+              <img class="friend__pic-img" src="./images/dist/friend/pay.svg" alt="pay">
+            </div>
+            <div class="friend__desc">
+              <p class="friend__desc-text">Pay with card</p>
+            </div>
+          </div>
+          <div class="friend__item col-4 col-xl-3 col-lg-3 col-ml-4 col-md-4 col-sd-12 col-sm-12">
+            <div class="friend__pic">
+              <img class="friend__pic-img" src="./images/dist/friend/zoo.svg" alt="zoo">
+            </div>
+            <div class="friend__desc">
+              <p class="friend__desc-text">Payment goes to the <br/>zoo</p>
+            </div>
+          </div>
+          <div class="friend__item col-4 col-xl-3 col-lg-3 col-ml-4 col-md-4 col-sd-12 col-sm-12">
+            <div class="friend__pic">
+              <img class="friend__pic-img" src="./images/dist/friend/monkey.svg" alt="monkey">
+            </div>
+            <div class="friend__desc">
+              <p class="friend__desc-text">Your favourite animal <br/> gets delicious dish</p>
+            </div>
+          </div>
+        </div>
+        <a class="friend__link" href="../donate.html"><button class="friend__btn">Feed a friend now</button></a>        
+        <div class="friend__img">
+          <img class="friend__img-left" src="./images/dist/friend/arrow.svg" alt="arrow">
+        </div>
+        <div class="friend__img">
+          <img class="friend__img-left-md" src="./images/dist/friend/arrow-md.svg" alt="arrow">
+        </div>
+        <div class="friend__img">
+          <img class="friend__img-right" src="./images/dist/friend/arrow.svg" alt="arrow">
+        </div>
+        <div class="friend__img">
+          <img class="friend__img-right-md" src="./images/dist/friend/arrow-md.svg" alt="arrow">
+        </div>
+      </div>      
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <div class="testimonials__wrapper">
+        <h2 class="testimonials__title">Testimonials</h2>
+        <div class="testimonials__container">
+          <div class="testimonials__row"> 
+                     
+          </div>        
+      </div>
+      <div class="testimonials__box">
+        <input class="testimonials__box-input" type="range" min="0" max="7" step="1" value="0">
+      </div>
+      <button class="testimonials__btn">leave feedback</button>
+    </div>
+    <div class="testimonials__img">
+      <img class="testimonials__img-right" src="./images/dist/testimonials/leav.png" alt="leav">
+      <img class="testimonials__img-right-lg" src="./images/dist/testimonials/leav-lg.png" alt="leav">
+      <img class="testimonials__img-right-md" src="./images/dist/testimonials/leav-md.png" alt="leav">
+      <img class="testimonials__img-right-sm" src="./images/dist/testimonials/leav-sm.png" alt="leav">
+    </div>
+  </section>  
+</main>
+
+<div id="myPopUp" class="pop-up">
+  <div class="pop-up__overlay"></div>  
+  <div class="pop-up__row">
+    <img class="pop-up__close" src="./images/dist/pop-up/close-icon.svg" alt="close-icon">
+    <div class="pop-up__item">
+
+    </div>
+  </div>
+</div>
+
+<script src="./js/app.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/range.js"></script>
+
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer__row row">
+			<div class="footer__item col-4">
+				<div class="footer__logo">
+					<p class="footer__logo-title"><a class="footer__logo-link" href="/">PetStory <br/> online</a></p>					
+					<img class="footer__logo-pic" src="./images/dist/footer/bamboo.svg" alt="logo">
+				</div>
+				<a class="footer__link-btn" href="../donate.html"><button class="footer__btn">donate for volunteers</button></a>  				
+				<div class="footer__socials">
+          <ul>
+            <li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_facebook" href="https://www.facebook.com/">Facebook</a></li>
+            <li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_twitter" href="https://twitter.com/">Twitter</a></li>
+						<li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_instagram" href="https://www.instagram.com/">Instagram</a></li>
+						<li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_youtube" href="https://www.youtube.com/">YouTube</a></li>
+					</ul>					
+				</div>				
+			</div>
+			<div class="footer__item col-4">
+				<nav class="footer__nav">
+					<ul class="footer__list">
+						<li class="footer__point">
+							<a class="footer__link" data-id-nav-footer="index" href="/">About</a>
+						</li>
+						<li class="footer__point">
+							<a class="footer__link" data-id-nav-footer="map" href="/">Map</a>
+						</li>
+						<li class="footer__point">
+							<a class="footer__link" data-id-nav-footer="zoos" href="/">Zoos</a>
+						</li>
+						<li class="footer__point">
+							<a class="footer__link" data-id-nav-footer="contact" href="/">Contact us</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer__item col-4">
+				<form class="footer__form" action="/" method="post">
+					<p class="footer__form-title">Subscribe to our news</p>
+					<div class="footer__form-wrapper">
+						<div class="footer__form-input">
+							<input class="footer__form-input-text" type="email" required="true" name="Email" placeholder="Enter your email"/>
+						</div>
+						<button class="footer__form-btn" type="mistake">Submit</button>
+					</div>					
+				</form>	
+				<div class="footer__copyright">
+					<p class="footer__copyright-info">Designed by Alisa Samborskaya</p>
+					<p class="footer__copyright-info">©RSSchool & ©Yem Digital 2021</p>								
+				</div>			
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
+
